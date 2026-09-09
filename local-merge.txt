@@ -1,0 +1,11 @@
+Type      |   When it Happen           |   Result                   | 
+__________|____________________________|____________________________|
+Fast-     | Target branch has no new   | Branch pointer simply      |
+forward   | commits                    | moves forward              | 
+__________|____________________________|____________________________|
+3-way     | Both branch have new       | Creates a merge commit     | 
+merge     | commits                    |                            |
+__________|____________________________|____________________________|
+Conflict  | Same lines changed in both | Git stops and asks you to  |
+          | branches                   | resolve                    |
+__________|____________________________|____________________________|          
